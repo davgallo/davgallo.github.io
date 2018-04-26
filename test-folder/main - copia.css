@@ -1,0 +1,52 @@
+body, html {
+    background-color: #000;
+    height: 100%;
+    width: 100%
+}
+
+.b444 {
+	color: #444;
+}
+.rotater {
+    transform: rotate(90deg)
+}
+header.startup {
+	background-position: center;
+	background-image: url("epiphone-thunderbird-pro-v-1164379.png");
+	background-size: cover;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+header h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 3rem;
+	line-height: 2.6rem;
+	margin-bottom: 160px;
+}
+.btn {
+	font-weight: 300;
+	text-transform: uppercase;
+	border-radius: 8px;
+	font-family: 'Raleway', sans-serif;
+	background-color: #444444;
+	color: #fff;
+	cursor: pointer
+}
+.btn:focus, .btn:active:focus, .btn.active:focus,
+.btn-xl:focus, .btn-xl:active:focus, .btn-xl.active:focus
+.btn-danger:focus, .btn.danger.focus, .btn-danger:active:focus, .btn-danger.active:focus {
+    box-shadow:none;
+}
+.btn-xl {
+	padding: 1rem 2rem;
+	border-style: none;
+	border: 0px; 
+}
+.btn:hover, .btn:focus {
+  background-color: #660F0F;
+}
+.btn:active:focus, .btn.active:focus {
+	background-color: #FFCE00;
+}
